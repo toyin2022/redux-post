@@ -1,0 +1,103 @@
+.AllBlog {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.cont {
+  margin-top: 40px;
+  text-align: center;
+  width: 100vw;
+  height: 17vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: whitesmoke;
+}
+.cont h3 {
+  font-size: 1.9rem;
+}
+
+.ppp {
+  font-size: 1.3rem;
+}
+
+Link {
+  text-decoration: none;
+  color: inherit;
+}
+.contt {
+  color: black;
+  font-size: 1.1rem;
+}
+
+.connn {
+  width: 80vw;
+  height: 18vh;
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.514);
+}
+
+.cardd {
+  height: 70vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  padding: 1rem 3rem;
+  font-size: 1.21rem;
+}
+.tit {
+  margin-bottom: 19px;
+}
+.inp {
+  height: 37vh;
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid grey;
+  margin-bottom: 30px;
+  /* background-color: #298; */
+}
+.inp h3 {
+  text-align: center;
+  width: 90vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #000;
+}
+.inp form {
+  height: 20vh;
+  display: flex;
+  gap: 9rem;
+}
+.inp form .form-control {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.inn {
+  height: 8vh;
+}
+.inp form .form-control .in input,
+textarea {
+  height: 10vh;
+  width: 60vw;
+  border: 0.7px solid grey;
+  outline: 0;
+}
